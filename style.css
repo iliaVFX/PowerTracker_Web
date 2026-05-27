@@ -96,3 +96,20 @@ nav a {
     padding-top: 20px;
     border-top: 1px solid var(--secondary-text);
 }
+/* Переключатель языков */
+.lang-switcher {
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lang-switcher a {
+    color: var(--secondary-text);
+    padding: 0 4px;
+}
+
+.lang-switcher a.active {
+    color: var(--text-color);
+    pointer-events: none;
+}
